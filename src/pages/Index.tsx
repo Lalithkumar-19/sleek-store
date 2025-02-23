@@ -1,6 +1,7 @@
 
 import Navbar from "@/components/Navbar";
 import ProductCard from "@/components/ProductCard";
+import HeroSlider from "@/components/HeroSlider";
 
 const featuredProducts = [
   {
@@ -35,18 +36,7 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-semibold tracking-tight">
-              Elevate Your Style
-            </h1>
-            <p className="mt-4 text-xl text-gray-500">
-              Discover our curated collection of premium menswear
-            </p>
-          </div>
-        </div>
-      </section>
+      <HeroSlider />
 
       {/* Featured Products */}
       <section className="py-12 px-4 sm:px-6 lg:px-8">
